@@ -1,0 +1,290 @@
+.project{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color:#0a101e;
+    
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.h{
+    height: 50px;
+    width: 100%;
+    background-color: #0a101e;
+    text-align: center;
+    color: #fff;
+}
+.procard{
+  border-radius: 10px;
+    height: 250px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/apple.jpg) !important;
+}
+/*  */
+.procarda{
+  height: 250px;
+  width: 350px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/prime.jpg);
+}
+
+.procardb{
+  border-radius: 10px;
+  height: 250px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/redmi.jpg);
+}
+/* javascript */
+.procardc{
+  border-radius: 10px;
+  height: 250px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/qr.jpg);
+}
+
+.procardd{
+  border-radius: 10px;
+  height: 250px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/Qute.jpg);
+}
+
+.procarde{
+  height: 250px;
+  width: 350px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/wether.jpg);
+}
+
+/* 2 */
+.procardca{
+  border-radius: 10px;
+  height: 250px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets//calculter.jpg);
+}
+
+.procarddd{
+  border-radius: 10px;
+  height: 250px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/clock.jpg);
+}
+
+.procarde{
+  height: 250px;
+  width: 350px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/wether.jpg);
+}
+/* react project */
+.procardf{
+  height: 250px;
+  border-radius: 10px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/paratha.jpg);
+}
+
+.procardg{
+  height: 250px;
+  border-radius: 10px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/feedback.jpg);
+}
+
+.procardh{
+  border-radius: 10px;
+  height: 250px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/fake.jpg);
+}
+
+.procardi{
+  height: 250px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(src/assets/wether.png);
+}
+
+.aprocard{
+  border-radius: 10px;
+    height: 250px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/Support.jpg);
+}
+.bprocard{
+  border-radius: 10px;
+    height: 250px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/rejouice.jpg) !important;
+}
+
+.procard:hover{
+    transform: scale(1.1);
+}
+.procarda:hover{
+  transform: scale(1.1);
+}
+.procardb:hover{
+  transform: scale(1.1);
+}
+.procardc:hover{
+  transform: scale(1.1);
+}
+.procardd:hover{
+  transform: scale(1.1);
+}
+.procarde:hover{
+  transform: scale(1.1);
+}
+.procardf:hover{
+  transform: scale(1.1);
+}
+.procardg:hover{
+  transform: scale(1.1);
+}
+.procardh:hover{
+  transform: scale(1.1);
+}
+.pro span{
+    -webkit-filter: blur(none);
+    filter: blur(none);
+}
+
+.pro span{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.project span a{
+  color: #000;
+}
+  .codee {
+    background-color: thistle;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .codee:hover, .codee:focus, .codee:active {
+    -webkit-animation-name: hvr-buzz;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes hvr-buzz {
+    50% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+  }
+  @keyframes hvr-buzz {
+    50% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+  }
+
+  .clickk {
+    background-color: thistle;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .clickk:hover, .clickk:focus, .clickk:active {
+    -webkit-animation-name: hvr-buzz;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes hvr-buzz {
+    50% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+  }
+  @keyframes hvr-buzz {
+    50% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+  }
+
+  @media (max-width : 878px) {
+
+    .project{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    
+  }

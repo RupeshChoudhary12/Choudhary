@@ -1,0 +1,86 @@
+.navbar h1 span{
+  color:#fec544;
+
+  
+}
+.navbar h1{
+  padding: 0px;
+  height: 40px;
+  color: #fff;
+  margin-bottom: 25px;
+  margin-left: 50px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.navbar{
+  height: 50px;
+  margin-bottom: 10px;
+}
+.navlinks{
+  height: 50px;
+  background-color: #070d1b;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  z-index: 1;
+}
+.navitem{
+  display: none;
+}
+.num i{
+  color: #fff;
+}
+
+.hire {
+  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  /*  */
+}
+.hire:hover, .hire:focus, .hire:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.navlink{
+  margin-right: 100px;
+
+  width: 40%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+ 
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+color: #fff;
+}
+
+.num{
+  color: #fec544;
+  list-style: none;
+  font-size: 20px;
+}
+
+a:hover{
+  color: #fec544;
+}
+
+@media (max-width : 778px) {
+  .nav{
+    display: none;
+  }
+  
+  .navitem{
+    display: block;
+    margin-bottom: 10px;
+  }
+ .num{
+  display: none;
+ }
+}

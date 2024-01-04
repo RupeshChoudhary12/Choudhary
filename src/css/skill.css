@@ -1,0 +1,34 @@
+.myskils{
+    width: 100%;
+    height: 100px;
+    background-color: #070d1b
+}
+.that{
+    height: 100vh;
+    width: 100%;
+    background-color: #070d1b
+
+}
+
+.have h2{
+    color:#fdfeff ;
+}
+.have p{
+    color: #a9adb8;
+    font-size: 15px;
+}
+.work{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.progress .experience-items{
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}

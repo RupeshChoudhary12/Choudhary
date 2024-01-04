@@ -1,0 +1,47 @@
+.blog{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    background-color:#0a101e;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bloga{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bloga img{
+    height: 200px;
+    width: 100%;
+
+}
+
+.bloga img:hover{
+    transform: scale(1.1);
+}
+
+.bloga span{
+    padding: 10px;
+    
+}
+.bloga span a{
+    font-size: 25px;
+}
+.bloga a:hover{
+    color: #fec544;
+}
+
+
+@media (max-width : 878px) {
+    .blog{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}

@@ -1,0 +1,196 @@
+.contact{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #070d1b;
+    align-items: center;
+    color: #fdfeff;
+    justify-content: space-around;
+}
+.just h1{
+    margin-left: 15px;
+    color: #fdfeff;
+}
+.textarea{
+    /* border: 1px solid #232935;
+    border-radius: 7px;
+    background-color: #101624; */
+    border: 1px solid #232935;
+    border-radius: 0;
+    width: 499px;
+    background-color: #101624;
+    margin-left: 20px;
+}
+.just span{
+   
+    display: flex;
+    flex-direction: column;
+}
+.phone{
+    margin-left: 50px;
+}
+
+span input{
+    height: 40px;
+    width: 500px;
+    margin: 20px;
+    background-color: #101624;
+    border: 1px solid #232935;
+    border-radius: 7px;
+    color: #fdfeff;
+}
+.mail h1{
+    font-size: 25px;
+}
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+.mail a{
+    margin-right: 20px;
+    
+}
+.send{
+    height: 40px;
+    width: 150px;
+    margin: 25px;
+    background-color: #fec544;
+    border-radius: 20px;
+    border: none;
+}
+.mail a img{
+    height: 30px;
+}
+.footer{
+    background-color: #101624;
+    height: 50px;
+}
+.footer h1{
+    font-size: 20px;
+    color: #fdfeff;
+    text-align: center;
+}
+.profile img{
+    height: 35px;
+    margin-left: 20px;
+   
+}
+
+
+/* .github a{
+    display: none;
+} */
+/* .githuba a{
+    display: none;
+} */
+.githubb a{
+    display: none;
+}
+.github{
+    height: 50px;
+    border: 2px solid #3f4551;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: #070d1b;
+    overflow: hidden;
+    
+}
+/* .github:hover{
+    
+    transition-duration: 3ms;
+}
+.githuba:hover{
+    width: 150px;
+    transition-duration: 3ms;
+}
+.githubb:hover{
+    width: 150px;
+    transition-duration: 3ms;
+} */
+.github a:hover{
+    display: block;
+    color: #fdfeff;
+}
+
+.just {
+    color: #fdfeff;
+}
+
+.v-card{
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.v-ul{
+    list-style-type: none;
+    width: 100%;
+}
+.v-li{
+    width: 60%;
+    padding: 10px;
+}
+.v-card h1{
+    margin-left: 20px;
+}
+.v-li img{
+    width: 20px;
+}
+.v-li a{
+    margin-left: 10px;
+}
+
+.githuba{
+    height: 50px;
+    border: 2px solid #3f4551;
+    border-radius: 50px;
+    margin: 10px;
+    background-color: #070d1b;
+    overflow: hidden;
+    
+}
+.githubb{
+    height: 50px;
+    margin: 10px;
+    border: 2px solid #3f4551;
+    border-radius: 50px;
+    background-color: #070d1b;
+    overflow: hidden;
+    
+}
+@media (max-width : 778px) {
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    span input{
+        height: auto;
+        width: auto;
+    }
+    .visit{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .profile{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .v-card{
+        height: 50%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+
+  
+}
